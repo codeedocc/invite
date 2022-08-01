@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: arial rgb(255, 255, 255);
+  font-size: 100%;
+}
+
+.photo {
+  background: url('../photo/doors.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jamesPhoto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+  max-width: 350px;
+  position: absolute;
+  top: 33%;
+  left: 0;
+  right: 0;
+  margin: 0;
+}
+
+.mikePhoto {
+  position: absolute;
+  width: 500px;
+  top: 45%;
+  right: 26%;
+}
+
+.MESSAGE-LEFT {
+  width: 600px;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+}
+
+.MESSAGE-CENTER {
+  width: 120px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 32%;
+  transform: translate(0, -50%);
+}
+
+.MESSAGE-RIGHT {
+  width: 600px;
+  position: absolute;
+  top: 30%;
+  right: 7%;
+}
+
+@media screen and (max-width: 1830px) {
+  .MESSAGE-LEFT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+  }
+
+  .MESSAGE-RIGHT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 6%;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .mikePhoto {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+    right: 24%;
+  }
+
+  .jamesPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    max-width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .MESSAGE-LEFT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+
+  .MESSAGE-RIGHT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+  }
+
+  .mikePhoto {
+    position: absolute;
+    width: 500px;
+    top: 40%;
+    right: 24%;
+  }
+
+  .jamesPhoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    max-width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .MESSAGE-LEFT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 3.5%;
+  }
+
+  .MESSAGE-RIGHT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 3.5%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .MESSAGE-LEFT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    left: 3%;
+  }
+
+  .MESSAGE-RIGHT {
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 3%;
+  }
+}
